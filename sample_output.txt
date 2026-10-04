@@ -1,0 +1,136 @@
+[  2.00s] Plane-1            Pilot: Requesting landing.
+[  2.02s] ATC                ATC: Landing granted to Plane-1, Gate-1; on ground = 1
+[  2.02s] Plane-1            Pilot: Landing.
+[  2.42s] Plane-1            Pilot: Landed; coasting to Gate-1
+[  2.73s] Plane-1            Pilot: Docked at Gate-1
+[  2.73s] Plane-1            Pilot: Requesting refuelling truck.
+[  2.73s] GroundService-1    Cleaning and refilling supplies for Plane-1
+[  2.73s] FuelTruck          Refuelling Plane-1
+[  2.73s] Passengers-1       Disembarking 45 passengers from Plane-1
+[  3.44s] Passengers-1       Disembarking finished for Plane-1
+[  3.73s] FuelTruck          Refuelling finished for Plane-1
+[  4.00s] Plane-2            Pilot: Requesting landing.
+[  4.00s] ATC                ATC: Landing granted to Plane-2, Gate-2; on ground = 2
+[  4.00s] Plane-2            Pilot: Landing.
+[  4.41s] Plane-2            Pilot: Landed; coasting to Gate-2
+[  4.71s] Plane-2            Pilot: Docked at Gate-2
+[  4.71s] Plane-2            Pilot: Requesting refuelling truck.
+[  4.71s] GroundService-2    Cleaning and refilling supplies for Plane-2
+[  4.71s] Passengers-2       Disembarking 9 passengers from Plane-2
+[  4.71s] FuelTruck          Refuelling Plane-2
+[  5.41s] Passengers-2       Disembarking finished for Plane-2
+[  5.71s] FuelTruck          Refuelling finished for Plane-2
+[  6.00s] Plane-3            Pilot: Requesting landing.
+[  6.01s] ATC                ATC: Plane-3 must wait in the air (runway busy, no gate, or emergency gate reservation).
+[  8.00s] Plane-4            Pilot: Requesting landing.
+[  8.00s] Plane-5            Pilot: Requesting landing. EMERGENCY: low fuel!
+[  8.00s] ATC                ATC: Plane-4 must wait in the air (runway busy, no gate, or emergency gate reservation).
+[  8.01s] ATC                ATC: CONGESTION - two gates occupied, two normal planes waiting; Plane-5 has low fuel.
+[  8.01s] ATC                ATC: Landing granted to Plane-5, Gate-3; on ground = 3 [EMERGENCY PRIORITY]
+[  8.01s] Plane-5            Pilot: Landing.
+[  8.41s] Plane-5            Pilot: Landed; coasting to Gate-3
+[  8.71s] Plane-5            Pilot: Docked at Gate-3
+[  8.71s] Passengers-5       Disembarking 48 passengers from Plane-5
+[  8.71s] GroundService-5    Cleaning and refilling supplies for Plane-5
+[  8.71s] Plane-5            Pilot: Requesting refuelling truck.
+[  8.71s] FuelTruck          Refuelling Plane-5
+[  9.41s] Passengers-5       Disembarking finished for Plane-5
+[  9.71s] FuelTruck          Refuelling finished for Plane-5
+[  9.91s] GroundService-5    Cleaning and supplies finished for Plane-5
+[  9.91s] Passengers-5       Boarding 8 passengers onto Plane-5
+[ 10.00s] Plane-6            Pilot: Requesting landing.
+[ 10.01s] ATC                ATC: Plane-6 must wait in the air (runway busy, no gate, or emergency gate reservation).
+[ 10.61s] Passengers-5       Boarding finished for Plane-5
+[ 10.61s] Plane-5            Pilot: Requesting take-off.
+[ 10.62s] ATC                ATC: Take-off granted to Plane-5
+[ 10.62s] Plane-5            Pilot: Undocking.
+[ 10.82s] Plane-5            Pilot: Coasting to runway.
+[ 11.12s] Plane-5            Pilot: Taking off.
+[ 11.52s] Plane-5            Pilot: Departed.
+[ 11.52s] ATC                ATC: Landing granted to Plane-3, Gate-3; on ground = 3
+[ 11.52s] Plane-3            Pilot: Landing.
+[ 11.92s] Plane-3            Pilot: Landed; coasting to Gate-3
+[ 12.22s] Plane-3            Pilot: Docked at Gate-3
+[ 12.22s] Plane-3            Pilot: Requesting refuelling truck.
+[ 12.22s] GroundService-3    Cleaning and refilling supplies for Plane-3
+[ 12.22s] Passengers-3       Disembarking 29 passengers from Plane-3
+[ 12.22s] FuelTruck          Refuelling Plane-3
+[ 12.73s] GroundService-1    Cleaning and supplies finished for Plane-1
+[ 12.73s] Passengers-1       Boarding 0 passengers onto Plane-1
+[ 12.92s] Passengers-3       Disembarking finished for Plane-3
+[ 13.22s] FuelTruck          Refuelling finished for Plane-3
+[ 13.42s] GroundService-3    Cleaning and supplies finished for Plane-3
+[ 13.42s] Passengers-3       Boarding 1 passengers onto Plane-3
+[ 13.43s] Passengers-1       Boarding finished for Plane-1
+[ 13.43s] Plane-1            Pilot: Requesting take-off.
+[ 13.43s] ATC                ATC: Take-off granted to Plane-1
+[ 13.43s] Plane-1            Pilot: Undocking.
+[ 13.63s] Plane-1            Pilot: Coasting to runway.
+[ 13.93s] Plane-1            Pilot: Taking off.
+[ 14.12s] Passengers-3       Boarding finished for Plane-3
+[ 14.12s] Plane-3            Pilot: Requesting take-off.
+[ 14.33s] Plane-1            Pilot: Departed.
+[ 14.33s] ATC                ATC: Take-off granted to Plane-3
+[ 14.34s] Plane-3            Pilot: Undocking.
+[ 14.54s] Plane-3            Pilot: Coasting to runway.
+[ 14.71s] GroundService-2    Cleaning and supplies finished for Plane-2
+[ 14.71s] Passengers-2       Boarding 43 passengers onto Plane-2
+[ 14.84s] Plane-3            Pilot: Taking off.
+[ 15.24s] Plane-3            Pilot: Departed.
+[ 15.24s] ATC                ATC: Landing granted to Plane-4, Gate-1; on ground = 2
+[ 15.24s] Plane-4            Pilot: Landing.
+[ 15.41s] Passengers-2       Boarding finished for Plane-2
+[ 15.41s] Plane-2            Pilot: Requesting take-off.
+[ 15.64s] Plane-4            Pilot: Landed; coasting to Gate-1
+[ 15.94s] Plane-4            Pilot: Docked at Gate-1
+[ 15.94s] ATC                ATC: Take-off granted to Plane-2
+[ 15.94s] Plane-2            Pilot: Undocking.
+[ 15.94s] Passengers-4       Disembarking 14 passengers from Plane-4
+[ 15.94s] GroundService-4    Cleaning and refilling supplies for Plane-4
+[ 15.94s] Plane-4            Pilot: Requesting refuelling truck.
+[ 15.94s] FuelTruck          Refuelling Plane-4
+[ 16.15s] Plane-2            Pilot: Coasting to runway.
+[ 16.46s] Plane-2            Pilot: Taking off.
+[ 16.64s] Passengers-4       Disembarking finished for Plane-4
+[ 16.86s] Plane-2            Pilot: Departed.
+[ 16.86s] ATC                ATC: Landing granted to Plane-6, Gate-2; on ground = 2
+[ 16.86s] Plane-6            Pilot: Landing.
+[ 16.94s] FuelTruck          Refuelling finished for Plane-4
+[ 17.23s] GroundService-4    Cleaning and supplies finished for Plane-4
+[ 17.24s] Passengers-4       Boarding 29 passengers onto Plane-4
+[ 17.26s] Plane-6            Pilot: Landed; coasting to Gate-2
+[ 17.56s] Plane-6            Pilot: Docked at Gate-2
+[ 17.56s] Passengers-6       Disembarking 3 passengers from Plane-6
+[ 17.56s] GroundService-6    Cleaning and refilling supplies for Plane-6
+[ 17.56s] Plane-6            Pilot: Requesting refuelling truck.
+[ 17.56s] FuelTruck          Refuelling Plane-6
+[ 17.94s] Passengers-4       Boarding finished for Plane-4
+[ 17.94s] Plane-4            Pilot: Requesting take-off.
+[ 17.94s] ATC                ATC: Take-off granted to Plane-4
+[ 17.94s] Plane-4            Pilot: Undocking.
+[ 18.15s] Plane-4            Pilot: Coasting to runway.
+[ 18.26s] Passengers-6       Disembarking finished for Plane-6
+[ 18.45s] Plane-4            Pilot: Taking off.
+[ 18.57s] FuelTruck          Refuelling finished for Plane-6
+[ 18.76s] GroundService-6    Cleaning and supplies finished for Plane-6
+[ 18.77s] Passengers-6       Boarding 42 passengers onto Plane-6
+[ 18.85s] Plane-4            Pilot: Departed.
+[ 19.47s] Passengers-6       Boarding finished for Plane-6
+[ 19.47s] Plane-6            Pilot: Requesting take-off.
+[ 19.47s] ATC                ATC: Take-off granted to Plane-6
+[ 19.47s] Plane-6            Pilot: Undocking.
+[ 19.67s] Plane-6            Pilot: Coasting to runway.
+[ 19.97s] Plane-6            Pilot: Taking off.
+[ 20.37s] Plane-6            Pilot: Departed.
+[ 20.37s] ATC                ATC: Simulation finished. Sanity checks:
+[ 20.37s] ATC                ATC: Gate-1 empty: true
+[ 20.37s] ATC                ATC: Gate-2 empty: true
+[ 20.37s] ATC                ATC: Gate-3 empty: true
+[ 20.38s] ATC                ATC: Runway free: true
+[ 20.38s] ATC                ATC: Ground empty: true
+[ 20.38s] ATC                ATC: Queues empty: true
+[ 20.38s] ATC                ATC: Maximum ground occupancy: 3 / 3
+[ 20.38s] ATC                ATC: Emergency scenario demonstrated: true
+[ 20.38s] ATC                ATC: Planes served: 6; passengers boarded: 123
+[ 20.38s] ATC                ATC: Landing permission wait (seconds): minimum 0.000, average 3.267, maximum 7.233
+[ 20.38s] FuelTruck          Truck finished for the day.
